@@ -44,4 +44,10 @@ export async function routes(
       return new UpdateCustomerController().handle(request, reply);
     }
   );
+  fastify.put(
+    "/customer",
+    async (request: FastifyRequest, reply: FastifyReply) => {
+      return new FindOneCustomerController().handle(request, reply);
+    }
+  );
 }
