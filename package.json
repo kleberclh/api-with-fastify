@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@fastify/cors": "^11.0.0",
+    "fastify": "^5.2.1",
+    "init": "^0.1.2",
+    "tsx": "^4.19.3"
+  },
+  "name": "api-with-fastify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "typescript": "^5.8.2"
+  },
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
