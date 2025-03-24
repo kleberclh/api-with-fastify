@@ -5,9 +5,6 @@ interface DeleteCustomerProps {
 }
 class DeleteCustomerService {
   async execute({ id }: DeleteCustomerProps) {
-    if (!id) {
-      throw new Error("ID ERRADO");
-    }
 
     const findCustomer = await prismaClient.customer.findFirst({
       where: {
