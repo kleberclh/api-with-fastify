@@ -2,7 +2,9 @@
   "dependencies": {
     "@fastify/cors": "^11.0.0",
     "@prisma/client": "^6.5.0",
+    "bcrypt": "^5.1.1",
     "fastify": "^5.2.1",
+    "fastify-bcrypt": "^1.0.1",
     "init": "^0.1.2",
     "tsx": "^4.19.3"
   },
@@ -10,6 +12,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
     "@types/node": "^22.13.10",
     "prisma": "^6.5.0",
     "typescript": "^5.8.2"
