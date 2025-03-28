@@ -1,6 +1,7 @@
 import { FastifyRequest, FastifyReply } from "fastify";
+import { FindOneCustomerService } from "../../services/customer/FondOneCustomerService";
 
-import { FindOneCustomerService } from "../services/FondOneCustomerService";
+
 
 class FindOneCustomerController {
   async handle(request: FastifyRequest, reply: FastifyReply) {
